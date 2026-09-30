@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 
 # Diretórios base
-ROOT_DIR = Path("fs_root")
-OUTPUT_JSON = Path("fs.json")
+ROOT_DIR = Path("FefehOS")
+OUTPUT_JSON = Path("build.json")
 
 def build_virtual_filesystem(current_path: Path) -> dict:
     fs_node = {}
