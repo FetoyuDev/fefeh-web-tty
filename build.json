@@ -1,0 +1,53 @@
+{
+  "type": "directory",
+  "children": {
+    "usr": {
+      "type": "directory",
+      "children": {}
+    },
+    "lib": {
+      "type": "directory",
+      "children": {}
+    },
+    "sys": {
+      "type": "directory",
+      "children": {}
+    },
+    "dev": {
+      "type": "directory",
+      "children": {}
+    },
+    "run": {
+      "type": "directory",
+      "children": {}
+    },
+    "home": {
+      "type": "directory",
+      "children": {}
+    },
+    "proc": {
+      "type": "directory",
+      "children": {}
+    },
+    "tmp": {
+      "type": "directory",
+      "children": {}
+    },
+    "srv": {
+      "type": "directory",
+      "children": {}
+    },
+    "var": {
+      "type": "directory",
+      "children": {}
+    },
+    "bin": {
+      "type": "directory",
+      "children": {}
+    },
+    "root": {
+      "type": "directory",
+      "children": {}
+    }
+  }
+}
