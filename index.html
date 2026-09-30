@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FefehOS - TTY</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- PyScript CSS & JS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+<body>
+    <div id="terminal">
+        <div id="output">A carregar FefehOS Kernel (PyScript/WASM)...<br></div>
+        <div class="input-line">
+            <span id="prompt-label">fefeh@fefehOS:~$</span>
+            <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+        </div>
+    </div>
+
+    <!-- Script Python que corre no Browser via PyScript -->
+    <script type="py" src="./main.py" config="./pyscript.toml"></script>
+</body>
+</html>
